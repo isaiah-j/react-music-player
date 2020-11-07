@@ -4,7 +4,6 @@
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid black;
 }
 
 .time-control {
@@ -12,7 +11,7 @@
 	display: flex;
 	input {
 		width: 100%;
-		padding: 1rem 2rem;
+		padding: 1rem 0rem;
 	}
 	p {
 		padding: 1rem;
@@ -26,6 +25,7 @@
 	padding: 1rem;
 	width: 30%;
 	svg {
-		cursor: pointer;
+        cursor: pointer;
+        font-size: 3rem;
 	}
 }
